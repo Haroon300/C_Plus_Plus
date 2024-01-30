@@ -37,9 +37,9 @@ int main() {
 
 
 
-///                              taxk 02
+//                              taxk 02
 
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 #include <cmath>
 
@@ -178,3 +178,31 @@ int main() {
 //                       task 03
 
 
+#include <iostream>
+
+int main() {
+    
+    int num, num1, rev;
+    
+    std :: cout << "Enter Number : \n";
+    std :: cin >> num;
+    
+    num1 = (num % 10) * 1000;
+    rev += num1;
+    
+    num1 = (num % 100) * 10;
+    rev += num1;
+    
+    num1 = (num % 10000) * 1000;
+    rev += num1;
+    
+    
+    
+    if (num == rev)
+    {
+        std :: cout << "Number is Palindrome ";
+    }else{
+        std :: cout << "Number is not Palindrome ";
+    }
+    return 0;
+}
